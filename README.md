@@ -2,19 +2,24 @@
 
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=venom&height=220&text=AI%20SUPPORT%20TRIAGE&fontSize=38&color=0:2563EB,100:7C3AED&fontColor=FFFFFF&stroke=6366F1&animation=fadeIn&desc=Intelligent%20Ticket%20Analysis%20%7C%20Support%20Automation&descSize=15&descAlignY=72" width="100%" alt="AI Customer Support Triage banner"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=220&text=AI%20SUPPORT%20TRIAGE&fontSize=38&color=0:2563EB,100:7C3AED&fontColor=FFFFFF&stroke=6366F1&animation=fadeIn&desc=Intelligent%20Ticket%20Analysis%20%7C%20Support%20Automation&descSize=15&descAlignY=72" width="100%" alt="AI Customer Support Triage Banner"/>
 
-  <br/>
+<br/>
 
-  <img src="https://img.shields.io/badge/AI-Customer%20Support-7C3AED?style=for-the-badge&logo=openai&logoColor=white" alt="AI Customer Support"/>
-  <img src="https://img.shields.io/badge/Python-Project-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Status-In%20Development-F59E0B?style=for-the-badge" alt="In development"/>
+[![Stars](https://img.shields.io/github/stars/arish096/ai-customer-support-triage?style=for-the-badge&logo=github&label=Stars&color=yellow)](https://github.com/arish096/ai-customer-support-triage/stargazers)
+[![Forks](https://img.shields.io/github/forks/arish096/ai-customer-support-triage?style=for-the-badge&logo=github&label=Forks&color=blue)](https://github.com/arish096/ai-customer-support-triage/forks)
+[![Issues](https://img.shields.io/github/issues/arish096/ai-customer-support-triage?style=for-the-badge&logo=github&label=Issues)](https://github.com/arish096/ai-customer-support-triage/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/arish096/ai-customer-support-triage?style=for-the-badge&logo=git&label=Last%20Commit)](https://github.com/arish096/ai-customer-support-triage/commits/main)
 
-  <br/><br/>
+[![GitHub Profile](https://img.shields.io/badge/GitHub-Arish%20Islam-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arish096)
+[![More Projects](https://img.shields.io/badge/Explore-More%20Projects-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arish096?tab=repositories)
+[![Profile Views](https://komarev.com/ghpvc/?username=arish096&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS)](https://github.com/arish096)
 
-  **An AI-powered approach to customer support ticket analysis, organization, and intelligent routing.**
+<br/>
 
-  [🚀 Explore Repository](https://github.com/arish096/ai-customer-support-triage) · [👨‍💻 About Me](https://github.com/arish096)
+**AI-Powered Ticket Analysis · Customer Support Automation · Intelligent Routing**
+
+*Exploring how AI can help support teams organize customer requests and streamline ticket workflows.*
 
 </div>
 
@@ -22,11 +27,11 @@
 
 ## 🧠 About The Project
 
-Customer support teams receive hundreds of requests involving account access, payments, technical problems, and general inquiries.
+Customer support teams receive requests about payments, account access, technical issues, and many other problems. Manually reviewing and organizing every ticket can take time.
 
-**AI Customer Support Triage** explores how AI-assisted workflows can help organize incoming tickets, understand customer requests, and support more efficient handling.
+**AI Customer Support Triage** is a Python-based project exploring AI-assisted customer support workflows, ticket analysis, and request organization.
 
-The goal is to make customer support workflows more organized, consistent, and easier to manage while keeping human review available for complex cases.
+The goal is to make support workflows more structured while keeping human review available for complex or uncertain cases.
 
 ## ✨ Features
 
@@ -35,47 +40,51 @@ The goal is to make customer support workflows more organized, consistent, and e
 <td width="50%">
 
 ### 🎫 Ticket Analysis
-Organize customer requests and examine incoming ticket information.
+
+Organize and examine customer support ticket information.
 
 </td>
 <td width="50%">
 
-### 🧠 AI-Assisted Workflows
-Explore AI-powered understanding and classification of support messages.
+### 🧠 AI-Assisted Processing
+
+Explore AI-powered understanding of customer requests.
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 🔀 Intelligent Routing
-Support workflows for directing requests toward appropriate teams.
+### 🔀 Support Routing
+
+Support workflows for directing tickets toward appropriate teams.
 
 </td>
 <td width="50%">
 
 ### 👤 Human Review
-Keep human oversight available when a request needs further investigation.
+
+Keep human oversight available for complex cases.
 
 </td>
 </tr>
 </table>
 
-> Feature availability depends on the current implementation. Additional capabilities will be documented as they are built and tested.
+> Feature availability depends on the current implementation. Planned enhancements are not represented as completed features.
 
-## ⚙️ Tech Stack
+## 🛠️ Tech Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,fastapi,html,css,git,github,vscode" alt="Technology stack icons"/>
+<img src="https://skillicons.dev/icons?i=python,fastapi,html,css,git,github,vscode" alt="Technology icons"/>
 
 </div>
 
 - **Language:** Python
-- **Application:** Existing application and service modules
+- **Application:** Python application and service modules
 - **Interface:** Templates and static assets
 - **Data:** JSON demo tickets
-- **AI integration:** Depends on the configured provider
+- **AI Integration:** Depends on the configured provider
 
 ## 📂 Project Structure
 
@@ -102,6 +111,8 @@ cd ai-customer-support-triage
 
 ### 2. Create a virtual environment
 
+**Windows:**
+
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
@@ -114,65 +125,70 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### 4. Configure your API key
+### 4. Configure API credentials
 
-Check the application configuration to identify the required AI provider and environment variable.
+Check the application's configuration and documentation to identify the required API provider and environment variable.
 
-Store credentials locally. Never upload API keys or secret tokens to GitHub.
+Keep API keys private. Never commit credentials, passwords, or secret tokens to GitHub.
 
 ### 5. Run the application
 
-If `app.py` exposes a FastAPI object named `app`, use:
+If `app.py` exposes a FastAPI application object named `app`, run:
 
 ```bash
 python -m uvicorn app:app --reload
 ```
 
-Then open:
+Open the following addresses after the server starts successfully:
 
 - Application: http://127.0.0.1:8000
 - API documentation: http://127.0.0.1:8000/docs
 
-If the application uses a different entry point, follow the relevant configuration in the source code.
+If the application's entry point differs, follow the relevant source-code configuration.
 
 ## 🗺️ Development Roadmap
 
-- [ ] Verify the complete application setup
-- [ ] Improve ticket classification and organization
+- [ ] Verify installation and application startup
+- [ ] Improve ticket categorization
 - [ ] Add priority-based ticket handling
 - [ ] Improve the dashboard and user experience
 - [ ] Add response suggestions where supported
 - [ ] Improve error handling and input validation
 - [ ] Add automated tests
-- [ ] Document verified screenshots and a working demo
+- [ ] Publish verified screenshots and a working demo
 
-## 👨‍💻 Meet The Developer
+## 📸 Screenshots
 
-<div align="center">
+Screenshots of the actual running application will be added here after successful testing.
 
-  <img src="https://github.com/arish096.png" width="120" alt="Arish Islam's GitHub avatar" style="border-radius:50%"/>
+Suggested screenshots:
+- Application dashboard
+- Ticket analysis
+- Ticket organization and routing
+- Human-review workflow
 
-  ### Arish Islam
+## 👨‍💻 Developer
 
-  **Web Developer | AI & Prompt Engineering | AI-Powered Applications**
+### Arish Islam
 
-  I'm a student developer interested in building useful web applications, experimenting with AI, and creating practical automation workflows.
-
-  I enjoy learning by building projects, exploring new technologies, and turning ideas into working software.
-
-  <a href="https://github.com/arish096">
-    <img src="https://img.shields.io/badge/GitHub-arish096-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile"/>
-  </a>
-
-</div>
 
 ## 🙌 Original Project & Attribution
 
-This project is based on the work shared by **entbappy**:
+This project is based on the original work by **entbappy**:
 
-[Customer-Support-Triage-with-Jev — Original Repository](https://github.com/entbappy/Customer-Support-Triage-with-Jev)
+🔗 [Customer-Support-Triage-with-Jev — Original Repository](https://github.com/entbappy/Customer-Support-Triage-with-Jev)
 
-The original creator is acknowledged for the starting project. This repository is being explored and developed further for learning and portfolio purposes. Please review the original repository's license and terms before redistributing its code.
+The original creator is acknowledged for the starting project. This repository is being explored and developed for learning and portfolio purposes.
+
+Please review the original repository's license and attribution requirements before redistributing or modifying its code.
+
+## 🔐 Security
+
+- Keep API keys and credentials private.
+- Exclude `.env` files from version control.
+- Validate incoming input.
+- Avoid exposing sensitive customer data in logs.
+- Keep human oversight available for important support decisions.
 
 ## ⭐ Support
 
@@ -180,8 +196,10 @@ If you find this project interesting, explore the repository and follow its deve
 
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:7C3AED&height=100&section=footer" width="100%" alt="Decorative footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:7C3AED&height=120&section=footer" width="100%" alt="Decorative footer"/>
 
-  **Built with curiosity by Arish Islam 💙**
+**Built with curiosity by Arish Islam 💙**
+
+[⬆ Back to Top](#-ai-customer-support-triage)
 
 </div>
